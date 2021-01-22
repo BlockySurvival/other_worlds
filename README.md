@@ -1,5 +1,6 @@
-Other Worlds 
-===
+# Other Worlds 
+
+![Luacheck](https://github.com/wsor4035/other_worlds/workflows/build/badge.svg)
 
 Minetest mod which adds asteroid layers. 
 
