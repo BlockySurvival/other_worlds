@@ -4,6 +4,8 @@
 
 Minetest mod which adds asteroid layers. 
 
+## About
+
 Each layer contains:
 
 1. Asteroids composed of unique materials.
@@ -13,8 +15,8 @@ Each layer contains:
 Default layers are Space and Red Sky, but anyone familiar with editing mods should be able to easily adjust these or create different/ additional layers.
 
 
-Settings
---------
+## Settings
+
 
 Settings for this mod can be adjusted by editing the settings.lua file. 
 
@@ -28,7 +30,6 @@ See the comments in this file for how to adjust:
 Note: It is advised to turn off map-generation after you have generated the required number of asteroids.
 
 
-Licenses and Attribution 
------------------------
+## Licenses and Attribution 
 
 Components of this mod use multiple licenses and were the work of several individuals. Please see license.txt for the full list. 
