@@ -49,11 +49,11 @@ minetest.register_node(":mars:moss", {
 	sunlight_propagates = true,
 	walkable = false,
 	node_box = {
-		type = "fixed", 
+		type = "fixed",
 		fixed = {-1/2, -1/2, -1/2, 1/2, -15/32, 1/2},
 	},
 	selection_box = {
-		type = "fixed", 
+		type = "fixed",
 		fixed = {-1/2, -1/2, -1/2, 1/2, -15/32, 1/2},
 	},
 	groups = {snappy=3,flora=1,attached_node=1},

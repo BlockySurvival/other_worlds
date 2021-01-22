@@ -15,7 +15,7 @@ local COBT = 0.05 -- Asteroid cobble threshold.
 local GRAT = 0.02 -- Asteroid gravel threshold.
 local ICET = 0.05 -- Comet ice threshold.
 local ATMOT = -0.2 -- Comet atmosphere threshold.
-local FISTS = 0.01 -- Fissure noise threshold at surface. Controls size of fissures and amount / size of fissure entrances.
+local FISTS = 0.01 -- Fissure noise threshold at surface. Controls size of fissures and amount/size of fissure entrances
 local FISEXP = 0.3 -- Fissure expansion rate under surface.
 local ORECHA = 3*3*3 -- Ore 1/x chance per stone node.
 local CPCHU = 0 -- Maximum craters per chunk.
@@ -23,7 +23,8 @@ local CRMIN = 5 -- Crater radius minimum, radius includes dust and obsidian laye
 local CRRAN = 8 -- Crater radius range.
 
 
--- Note: for fewer large objects: increase the 'spread' numbers in 'np_large' noise parameters. For fewer small objects do the same in 'np_small'. Then tune size with 'ASCOT'.
+-- Note: for fewer large objects: increase the 'spread' numbers in 'np_large' noise parameters.
+-- For fewer small objects do the same in 'np_small'. Then tune size with 'ASCOT'.
 
 -- 3D Perlin noise 1 for large structures
 local np_large = {
@@ -149,10 +150,10 @@ function otherworlds.asteroids.create_on_generated(ymin, ymax, content_ids)
 		for y = y0, y1 do -- for each horizontal row do
 		local vi = area:index(x0, y, z) -- LVM index for first node in x row
 		for x = x0, x1 do -- for each node do
-			local noise1abs = math.abs(nvals1[ni]) 
-			local noise4abs = math.abs(nvals4[ni]) 
+			local noise1abs = math.abs(nvals1[ni])
+			local noise4abs = math.abs(nvals4[ni])
 			local comet = false
-			if nvals6[ni] < -(ASCOT + ATMOT) or (nvals7[ni] < -(SASCOT + ATMOT) and nvals1[ni] < ASCOT) then 
+			if nvals6[ni] < -(ASCOT + ATMOT) or (nvals7[ni] < -(SASCOT + ATMOT) and nvals1[ni] < ASCOT) then
 				comet = true -- comet biome
 			end
 			if noise1abs > ASCOT or noise4abs > SASCOT then -- if below surface then
