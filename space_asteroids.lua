@@ -22,5 +22,4 @@ if otherworlds.settings.space_asteroids.enable then
 		c_atmos = minetest.get_content_id("asteroid:atmos"),
 		c_snowblock = minetest.get_content_id("default:snowblock"),
 	}))
-	
 end

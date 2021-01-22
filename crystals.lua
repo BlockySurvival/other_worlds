@@ -4,7 +4,7 @@ local sbox = {
 	fixed = {-5/16, -8/16, -6/16, 5/16, -1/32, 5/16},
 }
 
-local crystal_list = {   
+local crystal_list = {
 	{"ghost_crystal", "ghost_crystal.png",},
 	{"red_crystal", "red_crystal.png",},
 	{"rose_quartz", "rose_quartz.png",},

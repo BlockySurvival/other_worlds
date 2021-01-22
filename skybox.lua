@@ -79,7 +79,7 @@ minetest.register_globalstep(function(dtime)
                 clouds = false
 
             })
-            player:set_sun({visible = false})
+            player:set_sun({visible = false, sunrise_visible = false})
             player:set_moon({visible = false})
 			player_list[name] = "space"
 			if otherworlds.settings.gravity.enable then
@@ -95,7 +95,7 @@ minetest.register_globalstep(function(dtime)
                 clouds = false
 
             })
-            player:set_sun({visible = false})
+            player:set_sun({visible = false, sunrise_visible = false})
             player:set_moon({visible = false})
 			player_list[name] = "redsky"
 			if otherworlds.settings.gravity.enable then
@@ -109,7 +109,7 @@ minetest.register_globalstep(function(dtime)
                 type = "plain",
                 clouds = false,
             })
-            player:set_sun({visible = false})
+            player:set_sun({visible = false, sunrise_visible = false})
             player:set_moon({visible = false})
 			player_list[name] = "blackness"
 			if otherworlds.settings.gravity.enable then

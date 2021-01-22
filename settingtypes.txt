@@ -1,0 +1,8 @@
+ow_craft (enable craft reciepes) bool true
+ow_space_asteriods (enable space asteriods) bool true
+ow_space_min (min height for space) int 5000
+ow_space_max (max height for space) int 6000
+ow_red_asteriods (enable red asteriods) bool true
+ow_red_min (min height for red) int 6000
+ow_red_max (max height for red) int 7000
+ow_gravity (enable gravity) bool false
