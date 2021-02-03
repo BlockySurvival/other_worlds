@@ -109,3 +109,10 @@ for i=2,5 do
 		},
 	})
 end
+minetest.register_node(":mars:red_dirt_with_grass", {
+	description = S("Red Dirt"),
+	tiles = {"red_grass.png", "red_dirt.png",
+		{name = "red_dirt.png^red_grass_side.png",
+			tileable_vertical = false}},
+	groups = {crumbly = 3, soil = 1, spreading_dirt_type = 1},
+})
