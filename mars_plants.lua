@@ -116,3 +116,8 @@ minetest.register_node(":mars:red_dirt_with_grass", {
 			tileable_vertical = false}},
 	groups = {crumbly = 3, soil = 1, spreading_dirt_type = 1},
 })
+--recipe for red_dirt_with_grass
+minetest.register_craft({
+		output = ":mars:red_dirt_with_grass 2",
+		recipe = {{"default:dirt", "group:leaves"}}
+})
