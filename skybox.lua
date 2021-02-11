@@ -65,6 +65,7 @@ minetest.register_globalstep(function(dtime)
             player:set_sky(normal_sky)
             player:set_moon({visible = true})
             player:set_sun({visible = true})
+            player:set_stars({visible = true})
 			player_list[name] = "earth"
 			if otherworlds.settings.gravity.enable then
 				player:set_physics_override({gravity = 1})
