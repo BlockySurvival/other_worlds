@@ -26,7 +26,6 @@ for i in ipairs(crystal_list) do
 		walkable = false,
 		light_source = 10,
 		use_texture_alpha = true,
-		-- visual_scale = 10,
 		groups = {snappy=2,choppy=2,oddly_breakable_by_hand=3,},
 		sounds = default.node_sound_glass_defaults(),
 	})
@@ -42,7 +41,6 @@ for i in ipairs(crystal_list) do
 		walkable = false,
 		light_source = 10,
 		use_texture_alpha = true,
-		-- visual_scale = 10,
 		groups = {snappy=2,choppy=2,oddly_breakable_by_hand=3,},
 		sounds = default.node_sound_glass_defaults(),
 	})
