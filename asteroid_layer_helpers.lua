@@ -219,8 +219,8 @@ function otherworlds.asteroids.create_on_generated(ymin, ymax, content_ids)
 				or nodeid == c_cobble then
 					surfy = y
 					break
-				elseif nodename == c_snowblock
-				or nodename == c_waterice then
+				elseif nodeid == c_snowblock
+				or nodeid == c_waterice then
 					comet = true
 					surfy = y
 					break
