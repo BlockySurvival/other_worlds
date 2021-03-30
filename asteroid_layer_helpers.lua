@@ -268,6 +268,6 @@ function otherworlds.asteroids.create_on_generated(ymin, ymax, content_ids)
 		vm:write_to_map(data)
 		-- local chugent = math.ceil((os.clock() - t1) * 1000)
 		--print ("[asteroid] time "..chugent.." ms")
-		data = nil
+		-- data = nil -- unused, not tecnically useful
 	end
 end
